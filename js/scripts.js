@@ -3,7 +3,7 @@
 function beepBoop(number) {
 	let result = [];
 
-	for (let i=0; i<=number; i++) {
+	for (let i=''; i<=number; i++) {
 		const numbers = getNumbers(i);
 
 		if (numbers.includes(3)) {
@@ -40,14 +40,14 @@ $(document).ready(function() {
 		event.preventDefault();
 		
 		$("#results").show();
-		$("ul#numberList").empty();
+		$("ul#numbers").empty();
 
 		inputNumber = parseInt($("input#numberInput").val());
     $("#inputForm")[0].reset();
 		
 		const results = beepBoop(inputNumber);
 		for (const result of results) {
-			$("ul#numberList").append("<li>" + result + "</li>");
+			$("ul#numbers").append("<li>" + result + "</li>");
 		}
 	})
 });
