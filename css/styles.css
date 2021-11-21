@@ -1,14 +1,16 @@
 .jumbotron {
   font-family: 'Glyphicons Halflings';
 	text-align: center;
-	color: black;
-	background-image: url("https://www.solidbackgrounds.com/images/950x350/950x350-ash-grey-solid-color-background.jpg");
+	color:seashell;
+	background-image: url("https://images.pexels.com/photos/314860/pexels-photo-314860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
 body {
-  color:orange;
+  color:rgb(219, 137, 14);
   font-family: 'Glyphicons Halflings';
-  background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Free-Modern-PAttern-Background.jpg");
+  background-image: url("https://images.pexels.com/photos/2397413/pexels-photo-2397413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;  
+  background-size: initial; 
 
 }
 
@@ -18,4 +20,8 @@ body {
 
 #results{
   color: aqua;
+}
+#intro{
+  font-family: 'Glyphicons Halflings';
+  color:skyblue;
 }
