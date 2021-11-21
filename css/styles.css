@@ -15,3 +15,7 @@ body {
 #results {
 	display: none;
 }
+
+#results{
+  color: aqua;
+}
