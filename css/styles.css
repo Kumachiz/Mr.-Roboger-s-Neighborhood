@@ -1,0 +1,17 @@
+.jumbotron {
+  font-family: 'Glyphicons Halflings';
+	text-align: center;
+	color: black;
+	background-image: url("https://www.solidbackgrounds.com/images/950x350/950x350-ash-grey-solid-color-background.jpg");
+}
+
+body {
+  color:greenyellow;
+  font-family: 'Glyphicons Halflings';
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Free-Modern-PAttern-Background.jpg");
+
+}
+
+#results {
+	display: none;
+}
