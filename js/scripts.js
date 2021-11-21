@@ -3,7 +3,7 @@
 function beepBoop(number) {
 	let result = [];
 
-	for (let i=''; i<=number; i++) {
+	for (let i =''; i<=number; i++) {
 		const numbers = getNumbers(i);
 
 		if (numbers.includes(3)) {
